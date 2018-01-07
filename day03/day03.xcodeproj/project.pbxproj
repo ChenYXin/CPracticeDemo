@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3104B21A200208FD002C1BFD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3104B219200208FD002C1BFD /* main.c */; };
 		3104B22720020F25002C1BFD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3104B22620020F25002C1BFD /* main.c */; };
+		3104B23220021ADE002C1BFD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3104B23120021ADE002C1BFD /* main.c */; };
+		3104B23D20021F15002C1BFD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3104B23C20021F15002C1BFD /* main.c */; };
+		3104B248200223D6002C1BFD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3104B247200223D6002C1BFD /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +33,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3104B22D20021ADE002C1BFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3104B23820021F15002C1BFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3104B243200223D6002C1BFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +67,12 @@
 		3104B219200208FD002C1BFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3104B22420020F25002C1BFD /* Scabf函数的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Scabf函数的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3104B22620020F25002C1BFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3104B22F20021ADE002C1BFD /* scanf函数的其他用法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "scanf函数的其他用法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3104B23120021ADE002C1BFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3104B23A20021F15002C1BFD /* scanf函数的缓冲区 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "scanf函数的缓冲区"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3104B23C20021F15002C1BFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3104B245200223D6002C1BFD /* 交换两个变量的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "交换两个变量的值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3104B247200223D6002C1BFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3104B22C20021ADE002C1BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3104B23720021F15002C1BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3104B242200223D6002C1BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,7 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				3104B218200208FD002C1BFD /* day03 */,
-				3104B22520020F25002C1BFD /* Scabf函数的使用 */,
+				3104B22520020F25002C1BFD /* Scanf函数的使用 */,
+				3104B23020021ADE002C1BFD /* scanf函数的其他用法 */,
+				3104B23B20021F15002C1BFD /* scanf函数的缓冲区 */,
+				3104B246200223D6002C1BFD /* 交换两个变量的值 */,
 				3104B217200208FD002C1BFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +131,9 @@
 			children = (
 				3104B216200208FD002C1BFD /* day03 */,
 				3104B22420020F25002C1BFD /* Scabf函数的使用 */,
+				3104B22F20021ADE002C1BFD /* scanf函数的其他用法 */,
+				3104B23A20021F15002C1BFD /* scanf函数的缓冲区 */,
+				3104B245200223D6002C1BFD /* 交换两个变量的值 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,12 +146,36 @@
 			path = day03;
 			sourceTree = "<group>";
 		};
-		3104B22520020F25002C1BFD /* Scabf函数的使用 */ = {
+		3104B22520020F25002C1BFD /* Scanf函数的使用 */ = {
 			isa = PBXGroup;
 			children = (
 				3104B22620020F25002C1BFD /* main.c */,
 			);
-			path = "Scabf函数的使用";
+			path = "Scanf函数的使用";
+			sourceTree = "<group>";
+		};
+		3104B23020021ADE002C1BFD /* scanf函数的其他用法 */ = {
+			isa = PBXGroup;
+			children = (
+				3104B23120021ADE002C1BFD /* main.c */,
+			);
+			path = "scanf函数的其他用法";
+			sourceTree = "<group>";
+		};
+		3104B23B20021F15002C1BFD /* scanf函数的缓冲区 */ = {
+			isa = PBXGroup;
+			children = (
+				3104B23C20021F15002C1BFD /* main.c */,
+			);
+			path = "scanf函数的缓冲区";
+			sourceTree = "<group>";
+		};
+		3104B246200223D6002C1BFD /* 交换两个变量的值 */ = {
+			isa = PBXGroup;
+			children = (
+				3104B247200223D6002C1BFD /* main.c */,
+			);
+			path = "交换两个变量的值";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +215,57 @@
 			productReference = 3104B22420020F25002C1BFD /* Scabf函数的使用 */;
 			productType = "com.apple.product-type.tool";
 		};
+		3104B22E20021ADE002C1BFD /* scanf函数的其他用法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3104B23520021ADE002C1BFD /* Build configuration list for PBXNativeTarget "scanf函数的其他用法" */;
+			buildPhases = (
+				3104B22B20021ADE002C1BFD /* Sources */,
+				3104B22C20021ADE002C1BFD /* Frameworks */,
+				3104B22D20021ADE002C1BFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scanf函数的其他用法";
+			productName = "scanf函数的其他用法";
+			productReference = 3104B22F20021ADE002C1BFD /* scanf函数的其他用法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3104B23920021F15002C1BFD /* scanf函数的缓冲区 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3104B23E20021F15002C1BFD /* Build configuration list for PBXNativeTarget "scanf函数的缓冲区" */;
+			buildPhases = (
+				3104B23620021F15002C1BFD /* Sources */,
+				3104B23720021F15002C1BFD /* Frameworks */,
+				3104B23820021F15002C1BFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scanf函数的缓冲区";
+			productName = "scanf函数的缓冲区";
+			productReference = 3104B23A20021F15002C1BFD /* scanf函数的缓冲区 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3104B244200223D6002C1BFD /* 交换两个变量的值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3104B249200223D6002C1BFD /* Build configuration list for PBXNativeTarget "交换两个变量的值" */;
+			buildPhases = (
+				3104B241200223D6002C1BFD /* Sources */,
+				3104B242200223D6002C1BFD /* Frameworks */,
+				3104B243200223D6002C1BFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "交换两个变量的值";
+			productName = "交换两个变量的值";
+			productReference = 3104B245200223D6002C1BFD /* 交换两个变量的值 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -142,6 +280,18 @@
 						ProvisioningStyle = Automatic;
 					};
 					3104B22320020F25002C1BFD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3104B22E20021ADE002C1BFD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3104B23920021F15002C1BFD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3104B244200223D6002C1BFD = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -161,6 +311,9 @@
 			targets = (
 				3104B215200208FD002C1BFD /* day03 */,
 				3104B22320020F25002C1BFD /* Scabf函数的使用 */,
+				3104B22E20021ADE002C1BFD /* scanf函数的其他用法 */,
+				3104B23920021F15002C1BFD /* scanf函数的缓冲区 */,
+				3104B244200223D6002C1BFD /* 交换两个变量的值 */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +332,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				3104B22720020F25002C1BFD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3104B22B20021ADE002C1BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3104B23220021ADE002C1BFD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3104B23620021F15002C1BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3104B23D20021F15002C1BFD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3104B241200223D6002C1BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3104B248200223D6002C1BFD /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +497,54 @@
 			};
 			name = Release;
 		};
+		3104B23320021ADE002C1BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3104B23420021ADE002C1BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3104B23F20021F15002C1BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3104B24020021F15002C1BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3104B24A200223D6002C1BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3104B24B200223D6002C1BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -346,6 +571,33 @@
 			buildConfigurations = (
 				3104B22920020F26002C1BFD /* Debug */,
 				3104B22A20020F26002C1BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3104B23520021ADE002C1BFD /* Build configuration list for PBXNativeTarget "scanf函数的其他用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3104B23320021ADE002C1BFD /* Debug */,
+				3104B23420021ADE002C1BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3104B23E20021F15002C1BFD /* Build configuration list for PBXNativeTarget "scanf函数的缓冲区" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3104B23F20021F15002C1BFD /* Debug */,
+				3104B24020021F15002C1BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3104B249200223D6002C1BFD /* Build configuration list for PBXNativeTarget "交换两个变量的值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3104B24A200223D6002C1BFD /* Debug */,
+				3104B24B200223D6002C1BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
