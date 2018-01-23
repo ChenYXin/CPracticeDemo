@@ -11,6 +11,8 @@
 		317CC761201642BE00B56FE3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 317CC760201642BE00B56FE3 /* main.c */; };
 		317CC76C2016479000B56FE3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 317CC76B2016479000B56FE3 /* main.c */; };
 		317CC77720164C5300B56FE3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 317CC77620164C5300B56FE3 /* main.c */; };
+		31BB832E20178AD0008E0F42 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31BB832D20178AD0008E0F42 /* main.c */; };
+		31BB833920178CAC008E0F42 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31BB833820178CAC008E0F42 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +52,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		31BB832920178AD0008E0F42 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		31BB833420178CAC008E0F42 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +81,10 @@
 		317CC76B2016479000B56FE3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		317CC77420164C5300B56FE3 /* if-else if-else */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "if-else if-else"; sourceTree = BUILT_PRODUCTS_DIR; };
 		317CC77620164C5300B56FE3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		31BB832B20178AD0008E0F42 /* 三元表达式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "三元表达式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BB832D20178AD0008E0F42 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		31BB833620178CAC008E0F42 /* 如何产生随机数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "如何产生随机数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BB833820178CAC008E0F42 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +116,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31BB832820178AD0008E0F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BB833320178CAC008E0F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,6 +140,8 @@
 				317CC75F201642BE00B56FE3 /* if-else练习 */,
 				317CC76A2016479000B56FE3 /* if-else升级版练习 */,
 				317CC77520164C5300B56FE3 /* if-else if-else */,
+				31BB832C20178AD0008E0F42 /* 三元表达式 */,
+				31BB833720178CAC008E0F42 /* 如何产生随机数 */,
 				317CC75020163E2800B56FE3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +153,8 @@
 				317CC75E201642BE00B56FE3 /* if-else练习 */,
 				317CC7692016479000B56FE3 /* if-else升级版练习 */,
 				317CC77420164C5300B56FE3 /* if-else if-else */,
+				31BB832B20178AD0008E0F42 /* 三元表达式 */,
+				31BB833620178CAC008E0F42 /* 如何产生随机数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +189,22 @@
 				317CC77620164C5300B56FE3 /* main.c */,
 			);
 			path = "if-else if-else";
+			sourceTree = "<group>";
+		};
+		31BB832C20178AD0008E0F42 /* 三元表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				31BB832D20178AD0008E0F42 /* main.c */,
+			);
+			path = "三元表达式";
+			sourceTree = "<group>";
+		};
+		31BB833720178CAC008E0F42 /* 如何产生随机数 */ = {
+			isa = PBXGroup;
+			children = (
+				31BB833820178CAC008E0F42 /* main.c */,
+			);
+			path = "如何产生随机数";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +278,40 @@
 			productReference = 317CC77420164C5300B56FE3 /* if-else if-else */;
 			productType = "com.apple.product-type.tool";
 		};
+		31BB832A20178AD0008E0F42 /* 三元表达式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BB833120178AD0008E0F42 /* Build configuration list for PBXNativeTarget "三元表达式" */;
+			buildPhases = (
+				31BB832720178AD0008E0F42 /* Sources */,
+				31BB832820178AD0008E0F42 /* Frameworks */,
+				31BB832920178AD0008E0F42 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "三元表达式";
+			productName = "三元表达式";
+			productReference = 31BB832B20178AD0008E0F42 /* 三元表达式 */;
+			productType = "com.apple.product-type.tool";
+		};
+		31BB833520178CAC008E0F42 /* 如何产生随机数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BB833A20178CAC008E0F42 /* Build configuration list for PBXNativeTarget "如何产生随机数" */;
+			buildPhases = (
+				31BB833220178CAC008E0F42 /* Sources */,
+				31BB833320178CAC008E0F42 /* Frameworks */,
+				31BB833420178CAC008E0F42 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "如何产生随机数";
+			productName = "如何产生随机数";
+			productReference = 31BB833620178CAC008E0F42 /* 如何产生随机数 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -245,6 +337,14 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					31BB832A20178AD0008E0F42 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					31BB833520178CAC008E0F42 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 317CC74A20163E2800B56FE3 /* Build configuration list for PBXProject "day04" */;
@@ -263,6 +363,8 @@
 				317CC75D201642BE00B56FE3 /* if-else练习 */,
 				317CC7682016479000B56FE3 /* if-else升级版练习 */,
 				317CC77320164C5300B56FE3 /* if-else if-else */,
+				31BB832A20178AD0008E0F42 /* 三元表达式 */,
+				31BB833520178CAC008E0F42 /* 如何产生随机数 */,
 			);
 		};
 /* End PBXProject section */
@@ -297,6 +399,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				317CC77720164C5300B56FE3 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BB832720178AD0008E0F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BB832E20178AD0008E0F42 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BB833220178CAC008E0F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BB833920178CAC008E0F42 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +588,38 @@
 			};
 			name = Release;
 		};
+		31BB832F20178AD0008E0F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31BB833020178AD0008E0F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31BB833B20178CAC008E0F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31BB833C20178CAC008E0F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -514,6 +664,24 @@
 			buildConfigurations = (
 				317CC77920164C5300B56FE3 /* Debug */,
 				317CC77A20164C5300B56FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BB833120178AD0008E0F42 /* Build configuration list for PBXNativeTarget "三元表达式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BB832F20178AD0008E0F42 /* Debug */,
+				31BB833020178AD0008E0F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BB833A20178CAC008E0F42 /* Build configuration list for PBXNativeTarget "如何产生随机数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BB833B20178CAC008E0F42 /* Debug */,
+				31BB833C20178CAC008E0F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
