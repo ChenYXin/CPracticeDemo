@@ -1,6 +1,6 @@
 //
 //  main.c
-//  day06
+//  循环的应用场景
 //
 //  Created by Donkor on 2018/1/28.
 //  Copyright © 2018年 Donkor. All rights reserved.
