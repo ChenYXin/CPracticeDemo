@@ -8,10 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		3171009D201DB13100AE2D81 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3171009C201DB13100AE2D81 /* main.c */; };
+		3198BF752020C74900E8336F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3198BF742020C74900E8336F /* main.c */; };
+		3198BF802020CF7C00E8336F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3198BF7F2020CF7C00E8336F /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		31710097201DB13000AE2D81 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3198BF702020C74900E8336F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3198BF7B2020CF7C00E8336F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +45,28 @@
 /* Begin PBXFileReference section */
 		31710099201DB13100AE2D81 /* day06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day06; sourceTree = BUILT_PRODUCTS_DIR; };
 		3171009C201DB13100AE2D81 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3198BF722020C74900E8336F /* do_while循环 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "do_while循环"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3198BF742020C74900E8336F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3198BF7D2020CF7C00E8336F /* for循环 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "for循环"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3198BF7F2020CF7C00E8336F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		31710096201DB13000AE2D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3198BF6F2020C74900E8336F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3198BF7A2020CF7C00E8336F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				3171009B201DB13100AE2D81 /* day06 */,
+				3198BF732020C74900E8336F /* do_while循环 */,
+				3198BF7E2020CF7C00E8336F /* for循环 */,
 				3171009A201DB13100AE2D81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				31710099201DB13100AE2D81 /* day06 */,
+				3198BF722020C74900E8336F /* do_while循环 */,
+				3198BF7D2020CF7C00E8336F /* for循环 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +102,22 @@
 				3171009C201DB13100AE2D81 /* main.c */,
 			);
 			path = day06;
+			sourceTree = "<group>";
+		};
+		3198BF732020C74900E8336F /* do_while循环 */ = {
+			isa = PBXGroup;
+			children = (
+				3198BF742020C74900E8336F /* main.c */,
+			);
+			path = "do_while循环";
+			sourceTree = "<group>";
+		};
+		3198BF7E2020CF7C00E8336F /* for循环 */ = {
+			isa = PBXGroup;
+			children = (
+				3198BF7F2020CF7C00E8336F /* main.c */,
+			);
+			path = "for循环";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +140,40 @@
 			productReference = 31710099201DB13100AE2D81 /* day06 */;
 			productType = "com.apple.product-type.tool";
 		};
+		3198BF712020C74900E8336F /* do_while循环 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3198BF782020C74900E8336F /* Build configuration list for PBXNativeTarget "do_while循环" */;
+			buildPhases = (
+				3198BF6E2020C74900E8336F /* Sources */,
+				3198BF6F2020C74900E8336F /* Frameworks */,
+				3198BF702020C74900E8336F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "do_while循环";
+			productName = "do_while循环";
+			productReference = 3198BF722020C74900E8336F /* do_while循环 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3198BF7C2020CF7C00E8336F /* for循环 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3198BF812020CF7C00E8336F /* Build configuration list for PBXNativeTarget "for循环" */;
+			buildPhases = (
+				3198BF792020CF7C00E8336F /* Sources */,
+				3198BF7A2020CF7C00E8336F /* Frameworks */,
+				3198BF7B2020CF7C00E8336F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "for循环";
+			productName = "for循环";
+			productReference = 3198BF7D2020CF7C00E8336F /* for循环 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +184,14 @@
 				ORGANIZATIONNAME = Donkor;
 				TargetAttributes = {
 					31710098201DB13000AE2D81 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3198BF712020C74900E8336F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3198BF7C2020CF7C00E8336F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,6 +210,8 @@
 			projectRoot = "";
 			targets = (
 				31710098201DB13000AE2D81 /* day06 */,
+				3198BF712020C74900E8336F /* do_while循环 */,
+				3198BF7C2020CF7C00E8336F /* for循环 */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +222,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				3171009D201DB13100AE2D81 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3198BF6E2020C74900E8336F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3198BF752020C74900E8336F /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3198BF792020CF7C00E8336F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3198BF802020CF7C00E8336F /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +363,38 @@
 			};
 			name = Release;
 		};
+		3198BF762020C74900E8336F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3198BF772020C74900E8336F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3198BF822020CF7C00E8336F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3198BF832020CF7C00E8336F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -262,6 +412,24 @@
 			buildConfigurations = (
 				317100A1201DB13100AE2D81 /* Debug */,
 				317100A2201DB13100AE2D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3198BF782020C74900E8336F /* Build configuration list for PBXNativeTarget "do_while循环" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3198BF762020C74900E8336F /* Debug */,
+				3198BF772020C74900E8336F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3198BF812020CF7C00E8336F /* Build configuration list for PBXNativeTarget "for循环" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3198BF822020CF7C00E8336F /* Debug */,
+				3198BF832020CF7C00E8336F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
