@@ -10,6 +10,7 @@
 		31447EF4203F01CA00D4CAB5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31447EF3203F01CA00D4CAB5 /* main.c */; };
 		31447F0C203F070B00D4CAB5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31447F0B203F070B00D4CAB5 /* main.c */; };
 		31447F17203F0B3200D4CAB5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31447F16203F0B3200D4CAB5 /* main.c */; };
+		31447F22203F171400D4CAB5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31447F21203F171400D4CAB5 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		31447F1D203F171400D4CAB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +59,8 @@
 		31447F0B203F070B00D4CAB5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		31447F14203F0B3200D4CAB5 /* 99表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "99表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31447F16203F0B3200D4CAB5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		31447F1F203F171400D4CAB5 /* 判断一个数是否是水仙花数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "判断一个数是否是水仙花数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31447F21203F171400D4CAB5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31447F1C203F171400D4CAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +101,7 @@
 				31447EF2203F01CA00D4CAB5 /* goto */,
 				31447F0A203F070B00D4CAB5 /* 函数的使用 */,
 				31447F15203F0B3200D4CAB5 /* 99表 */,
+				31447F20203F171400D4CAB5 /* 判断一个数是否是水仙花数 */,
 				31447EF1203F01CA00D4CAB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +112,7 @@
 				31447EF0203F01CA00D4CAB5 /* day07 */,
 				31447F09203F070B00D4CAB5 /* 函数的使用 */,
 				31447F14203F0B3200D4CAB5 /* 99表 */,
+				31447F1F203F171400D4CAB5 /* 判断一个数是否是水仙花数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +139,14 @@
 				31447F16203F0B3200D4CAB5 /* main.c */,
 			);
 			path = "99表";
+			sourceTree = "<group>";
+		};
+		31447F20203F171400D4CAB5 /* 判断一个数是否是水仙花数 */ = {
+			isa = PBXGroup;
+			children = (
+				31447F21203F171400D4CAB5 /* main.c */,
+			);
+			path = "判断一个数是否是水仙花数";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +203,23 @@
 			productReference = 31447F14203F0B3200D4CAB5 /* 99表 */;
 			productType = "com.apple.product-type.tool";
 		};
+		31447F1E203F171400D4CAB5 /* 判断一个数是否是水仙花数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31447F23203F171400D4CAB5 /* Build configuration list for PBXNativeTarget "判断一个数是否是水仙花数" */;
+			buildPhases = (
+				31447F1B203F171400D4CAB5 /* Sources */,
+				31447F1C203F171400D4CAB5 /* Frameworks */,
+				31447F1D203F171400D4CAB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "判断一个数是否是水仙花数";
+			productName = "判断一个数是否是水仙花数";
+			productReference = 31447F1F203F171400D4CAB5 /* 判断一个数是否是水仙花数 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +241,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					31447F1E203F171400D4CAB5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 31447EEB203F01CA00D4CAB5 /* Build configuration list for PBXProject "day07" */;
@@ -212,6 +262,7 @@
 				31447EEF203F01CA00D4CAB5 /* day07 */,
 				31447F08203F070B00D4CAB5 /* 函数的使用 */,
 				31447F13203F0B3200D4CAB5 /* 99表 */,
+				31447F1E203F171400D4CAB5 /* 判断一个数是否是水仙花数 */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +289,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				31447F17203F0B3200D4CAB5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31447F1B203F171400D4CAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31447F22203F171400D4CAB5 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +454,22 @@
 			};
 			name = Release;
 		};
+		31447F24203F171400D4CAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31447F25203F171400D4CAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,6 +505,15 @@
 			buildConfigurations = (
 				31447F19203F0B3200D4CAB5 /* Debug */,
 				31447F1A203F0B3200D4CAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31447F23203F171400D4CAB5 /* Build configuration list for PBXNativeTarget "判断一个数是否是水仙花数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31447F24203F171400D4CAB5 /* Debug */,
+				31447F25203F171400D4CAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
