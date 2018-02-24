@@ -7,7 +7,7 @@
 		<key>99表.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>breack&amp;continue.xcscheme</key>
 		<dict>
@@ -17,14 +17,19 @@
 		<key>day07.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>函数的使用.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<key>判断一个数是否是水仙花数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>找出三个整数中最大数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>

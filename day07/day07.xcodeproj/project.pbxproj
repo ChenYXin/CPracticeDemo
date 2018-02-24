@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310EFB3E2041BC27009ACFE2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 310EFB3D2041BC27009ACFE2 /* main.c */; };
 		31447EF4203F01CA00D4CAB5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31447EF3203F01CA00D4CAB5 /* main.c */; };
 		31447F0C203F070B00D4CAB5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31447F0B203F070B00D4CAB5 /* main.c */; };
 		31447F17203F0B3200D4CAB5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31447F16203F0B3200D4CAB5 /* main.c */; };
@@ -14,6 +15,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		310EFB392041BC27009ACFE2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		31447EEE203F01CA00D4CAB5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		310EFB3B2041BC27009ACFE2 /* 找出三个整数中最大数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "找出三个整数中最大数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		310EFB3D2041BC27009ACFE2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		31447EF0203F01CA00D4CAB5 /* day07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day07; sourceTree = BUILT_PRODUCTS_DIR; };
 		31447EF3203F01CA00D4CAB5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		31447F09203F070B00D4CAB5 /* 函数的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "函数的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +76,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		310EFB382041BC27009ACFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31447EED203F01CA00D4CAB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		310EFB3C2041BC27009ACFE2 /* 找出三个整数中最大数 */ = {
+			isa = PBXGroup;
+			children = (
+				310EFB3D2041BC27009ACFE2 /* main.c */,
+			);
+			path = "找出三个整数中最大数";
+			sourceTree = "<group>";
+		};
 		31447EE7203F01CA00D4CAB5 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +129,7 @@
 				31447F0A203F070B00D4CAB5 /* 函数的使用 */,
 				31447F15203F0B3200D4CAB5 /* 99表 */,
 				31447F20203F171400D4CAB5 /* 判断一个数是否是水仙花数 */,
+				310EFB3C2041BC27009ACFE2 /* 找出三个整数中最大数 */,
 				31447EF1203F01CA00D4CAB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +141,7 @@
 				31447F09203F070B00D4CAB5 /* 函数的使用 */,
 				31447F14203F0B3200D4CAB5 /* 99表 */,
 				31447F1F203F171400D4CAB5 /* 判断一个数是否是水仙花数 */,
+				310EFB3B2041BC27009ACFE2 /* 找出三个整数中最大数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +181,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		310EFB3A2041BC27009ACFE2 /* 找出三个整数中最大数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310EFB412041BC27009ACFE2 /* Build configuration list for PBXNativeTarget "找出三个整数中最大数" */;
+			buildPhases = (
+				310EFB372041BC27009ACFE2 /* Sources */,
+				310EFB382041BC27009ACFE2 /* Frameworks */,
+				310EFB392041BC27009ACFE2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "找出三个整数中最大数";
+			productName = "找出三个整数中最大数";
+			productReference = 310EFB3B2041BC27009ACFE2 /* 找出三个整数中最大数 */;
+			productType = "com.apple.product-type.tool";
+		};
 		31447EEF203F01CA00D4CAB5 /* day07 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31447EF7203F01CA00D4CAB5 /* Build configuration list for PBXNativeTarget "day07" */;
@@ -229,6 +275,10 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Donkor;
 				TargetAttributes = {
+					310EFB3A2041BC27009ACFE2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					31447EEF203F01CA00D4CAB5 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -263,11 +313,20 @@
 				31447F08203F070B00D4CAB5 /* 函数的使用 */,
 				31447F13203F0B3200D4CAB5 /* 99表 */,
 				31447F1E203F171400D4CAB5 /* 判断一个数是否是水仙花数 */,
+				310EFB3A2041BC27009ACFE2 /* 找出三个整数中最大数 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		310EFB372041BC27009ACFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310EFB3E2041BC27009ACFE2 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31447EEC203F01CA00D4CAB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,6 +362,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		310EFB3F2041BC27009ACFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		310EFB402041BC27009ACFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		31447EF5203F01CA00D4CAB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -473,6 +548,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		310EFB412041BC27009ACFE2 /* Build configuration list for PBXNativeTarget "找出三个整数中最大数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310EFB3F2041BC27009ACFE2 /* Debug */,
+				310EFB402041BC27009ACFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		31447EEB203F01CA00D4CAB5 /* Build configuration list for PBXProject "day07" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
